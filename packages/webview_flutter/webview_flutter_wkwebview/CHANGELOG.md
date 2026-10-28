@@ -1,3 +1,8 @@
+## 3.28.0
+
+* Adds the response URL to the `HttpResponseError` passed to `onHttpError`, as
+  `request.uri` and `response.uri`.
+
 ## 3.27.2
 
 * Restores the minimum iOS version to 13 and minimum macOS version to 10.15.
